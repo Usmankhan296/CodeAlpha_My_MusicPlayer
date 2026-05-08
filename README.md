@@ -24,8 +24,5 @@ Music-Player/
     ├── song1.mp3
     ├── song2.mp3
     ├── song3.mp3
-▶️ How to Run
-Download or clone the repository
-Open the project folder
-Run index.html in your browser
-📸 Preview
+## 🌐 Live Demo
+[Open Music Player](https://mymusicplayer296.netlify.app/)
