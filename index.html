@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <nav>
+        <img src="hamburger.svg">
+        <h3>Music Player</h3>
+        <img src="favourite.svg">
+    </nav>
+
+    <div class="image">
+        <img id="cover" src="https://png.pngtree.com/background/20230611/original/pngtree-girl-singing-a-song-to-the-crowd-in-a-club-picture-image_3150321.jpg">
+
+        <div class="songname">
+            <h2 id="title"></h2>
+        </div>
+
+        <div class="singer">
+            <h3 id="artist"></h3>
+        </div>
+
+        <div class="volume">
+            <img id="volumeicon" src="https://www.svgrepo.com/show/532519/volume-max.svg" alt="">
+            <input id="volumerange" type="range">
+        </div>
+
+        <div class="timebar">
+            <input type="range" id="progress" value="0">
+            <div id="time" ></div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="playbar">
+            <img id="prev" src="previous.svg">
+            <img id="play" src="play.svg">
+            <img id="next" src="next.svg">
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

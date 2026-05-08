@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    max-width: 600px;
+    margin: auto;
+}
+#pause{
+    width:30px;
+    display: none;
+}
+
+/* NAV */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    color: white;
+    background: #000000;
+   
+}
+
+
+nav img{
+    width: 23px;
+    cursor: pointer;
+}
+
+/* IMAGE */
+.image{
+    height: 71vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #202020;
+    text-align: center;
+  
+}
+
+.image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* padding-top: 20px; */
+}
+
+/* TEXT */
+.songname{
+    margin: 20px 0;
+    color: white;
+}
+
+.singer{
+    margin-bottom: 40px;
+    color: #ddd;
+}
+
+/* PROGRESS */
+.timebar input{
+    width: 250px;
+    cursor: pointer;
+    
+}
+
+/* FOOTER */
+.footer{
+    
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+}
+
+.playbar img{
+    width: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    
+}
+
+.playbar img:hover{
+    /* transform: scale(1.2); */
+}
+.volume{
+    display: flex;
+    gap:20px;
+
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.volume img{
+    width:30px;
+    height:30px;
+    cursor: pointer;
+}
+.volume input{
+    height:5px;
+    cursor: pointer;
+
+}
+
+#progress{
+  /* -webkit-appearance: none; */
+  width: 250px;
+  height: 5px;
+  border-radius: 5px;
+  outline: none;
+
+ 
+}
+
+/* Thumb */
+#progress::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  background: rgb(41, 41, 41);
+  border-radius: 50%;
+  cursor: pointer;
+  /* margin-top: -5px; */
+}
+#volumerange{
+  /* -webkit-appearance: none; */
+  width: 120px;
+  height: 4px;
+  border-radius: 5px;
+  outline: none;
+
+ 
+}
+
+
